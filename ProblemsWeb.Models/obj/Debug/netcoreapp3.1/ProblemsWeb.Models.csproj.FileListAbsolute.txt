@@ -1,0 +1,10 @@
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Models\bin\Debug\netcoreapp3.1\ProblemsWeb.Models.deps.json
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Models\bin\Debug\netcoreapp3.1\ProblemsWeb.Models.dll
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Models\bin\Debug\netcoreapp3.1\ProblemsWeb.Models.pdb
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Models\obj\Debug\netcoreapp3.1\ProblemsWeb.Models.csproj.AssemblyReference.cache
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Models\obj\Debug\netcoreapp3.1\ProblemsWeb.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Models\obj\Debug\netcoreapp3.1\ProblemsWeb.Models.AssemblyInfoInputs.cache
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Models\obj\Debug\netcoreapp3.1\ProblemsWeb.Models.AssemblyInfo.cs
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Models\obj\Debug\netcoreapp3.1\ProblemsWeb.Models.csproj.CoreCompileInputs.cache
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Models\obj\Debug\netcoreapp3.1\ProblemsWeb.Models.dll
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Models\obj\Debug\netcoreapp3.1\ProblemsWeb.Models.pdb

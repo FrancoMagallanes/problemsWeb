@@ -1,0 +1,16 @@
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\bin\Debug\netcoreapp3.1\ProblemsWeb.Repository.deps.json
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\bin\Debug\netcoreapp3.1\ProblemsWeb.Repository.runtimeconfig.json
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\bin\Debug\netcoreapp3.1\ProblemsWeb.Repository.runtimeconfig.dev.json
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\bin\Debug\netcoreapp3.1\ProblemsWeb.Repository.dll
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\bin\Debug\netcoreapp3.1\ProblemsWeb.Repository.pdb
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\bin\Debug\netcoreapp3.1\ProblemsWeb.Models.dll
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\bin\Debug\netcoreapp3.1\ProblemsWeb.Models.pdb
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\obj\Debug\netcoreapp3.1\ProblemsWeb.Repository.csproj.AssemblyReference.cache
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\obj\Debug\netcoreapp3.1\ProblemsWeb.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\obj\Debug\netcoreapp3.1\ProblemsWeb.Repository.AssemblyInfoInputs.cache
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\obj\Debug\netcoreapp3.1\ProblemsWeb.Repository.AssemblyInfo.cs
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\obj\Debug\netcoreapp3.1\ProblemsWeb.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\obj\Debug\netcoreapp3.1\ProblemsWeb.Repository.csproj.CopyComplete
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\obj\Debug\netcoreapp3.1\ProblemsWeb.Repository.dll
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\obj\Debug\netcoreapp3.1\ProblemsWeb.Repository.pdb
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Repository\obj\Debug\netcoreapp3.1\ProblemsWeb.Repository.genruntimeconfig.cache

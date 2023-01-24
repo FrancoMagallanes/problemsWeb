@@ -1,0 +1,68 @@
+﻿ <div class="container">
+    <div class="row">
+        <div class="input-group">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon " id="txtSearch" />
+            <button type="button" class="btn btn-outline-primary" onclick="getAllSolutions();">search</button>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">title</th>
+                    <th scope="col">message</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+            </tbody>
+        </table>
+    </div>
+    <div id="divSearches"></div>
+</div>
+<script>
+
+    const getAllSolutions = () => {
+
+        let url = '/api/solution/FindAllSlt'
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => showData(data))
+            .catch(error => console.log(error))
+
+
+        const showData = (data) => {
+
+
+            console.log(data)
+            let body = ""
+
+            for (let i = 0; i < data.length; i++) {
+
+
+                body += `<tr> <td class="text-center"> ${data[i].title}</td> <td class="text-center"> ${data[i].message}</td> <td>  <a class="nav-link" href="/site/solution?id=${data[i].id}" edit> </td> </tr>`
+               
+
+
+            }
+
+
+            document.getElementById(`data`).innerHTML = body
+        }
+
+
+
+
+    }
+
+
+
+  
+</script>
+
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+<script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

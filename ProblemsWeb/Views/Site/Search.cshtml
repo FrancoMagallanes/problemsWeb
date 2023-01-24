@@ -1,0 +1,227 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="input-group">
+            <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon " id="txtSearch" />
+            <button type="button" class="btn btn-outline-primary" onclick="searchSolution(); createSearch();">search</button>
+        </div>
+    </div>
+
+
+    <div class="row">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody id="data">
+            </tbody>
+        </table>
+    </div>
+</div>
+<script>
+
+    const getAllSolutions = () => {
+
+        let url = '/api/solution/FindAllSlt'
+
+        fetch(url)
+            .then(response => response.json())
+            .then(data => showData(data))
+            .catch(error => console.log(error))
+
+
+        const showData = (data) => {
+
+
+            console.log(data)
+            let body = ""
+
+            for (let i = 0; i < data.length; i++) {
+
+                // document.getElementById("divWords").innerHTML += data[i]+ '<br/>'
+
+                body += data[i].message + '<br/>'
+
+
+            }
+
+
+            document.getElementById(`divSearches`).innerHTML = body
+        }
+
+
+
+
+    }
+
+
+
+    const searchSolution = async () => {
+
+
+
+        var errorText = {
+            errorCode: document.getElementById('txtSearch').value
+
+
+        }
+
+
+
+        await fetch('/api/solution/FindAllSltSearch', {
+            method: 'POST',
+            body: JSON.stringify(errorText),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then((response) => response.json())
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error! revisar log ');
+            })
+            .then(response => {
+
+                alert('Respuesta del servidor: ' + response)
+                console.log('Success:', response)
+
+                //let body = ''
+
+                //for (let i = 0; i < response.length; i++) {
+
+                //    body += response[i].title
+                //}
+                //document.getElementById("divSearches").innerHTML = body
+
+                let body = ""
+
+                for (let i = 0; i < response.length; i++) {
+
+
+
+                    body += `<tr> <td class="text-center"> ${response[i].title}</td> <td class="text-center"> ${response[i].message}</td> <td><input type=button id=btnLike value=like onclick=addLike(${response[i].id}) /> </td> <td><input type=button id=btnDislike value=dislike onclick=addDislike(${response[i].id}) /> </td> </tr>`
+
+
+                }
+
+
+                document.getElementById(`data`).innerHTML = body
+
+
+
+
+            });
+
+
+
+
+    }
+
+
+
+    const addLike = async (id) => {
+
+
+        var like = {
+
+            solutionId: id,
+            userId: 1,
+            likeType: document.getElementById("btnLike").value
+        }
+
+        let url = "/api/solution/CreateLike"
+        await fetch(url, {
+            method: 'POST',
+            body: JSON.stringify(like),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then(res => res.text())
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error! revisar log ');
+            })
+            .then(response => {
+
+                alert('Respuesta del servidor: ' + response)
+                console.log('Success:', response)
+
+            });
+
+    }
+
+    const addDislike = async (id) => {
+
+
+        var like = {
+
+            solutionId: id,
+            userId: 1,
+            likeType: document.getElementById("btnDislike").value
+        }
+
+        let url = "/api/solution/CreateLike"
+        await fetch(url, {
+            method: 'POST',
+            body: JSON.stringify(like),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then(res => res.text())
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error! revisar log ');
+            })
+            .then(response => {
+
+                alert('Respuesta del servidor: ' + response)
+                console.log('Success:', response)
+
+            });
+
+    }
+
+    const createSearch = async () => {
+
+
+        var search = {
+
+            text: document.getElementById('txtSearch').value,
+            foundCount: 1
+
+
+
+        }
+
+        let url = "/api/search/CreateSearch"
+
+        await fetch(url, {
+            method: 'POST',
+            body: JSON.stringify(search),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then(res => res.text())
+            .catch(error => {
+                console.error('Error:', error);
+                alert('Error! revisar log ');
+            })
+            .then(response => {
+
+                alert('Respuesta del servidor: ' + response)
+                console.log('Success:', response)
+
+            });
+    }
+
+</script>
+
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+<script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

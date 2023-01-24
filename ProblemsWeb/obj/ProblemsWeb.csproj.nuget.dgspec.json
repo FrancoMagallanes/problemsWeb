@@ -1,0 +1,276 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb\\ProblemsWeb.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Business\\ProblemsWeb.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Business\\ProblemsWeb.Business.csproj",
+        "projectName": "ProblemsWeb.Business",
+        "projectPath": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Business\\ProblemsWeb.Business.csproj",
+        "packagesPath": "C:\\Users\\Franco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Franco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Repository\\ProblemsWeb.Repository.csproj": {
+                "projectPath": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Repository\\ProblemsWeb.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Models\\ProblemsWeb.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Models\\ProblemsWeb.Models.csproj",
+        "projectName": "ProblemsWeb.Models",
+        "projectPath": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Models\\ProblemsWeb.Models.csproj",
+        "packagesPath": "C:\\Users\\Franco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Franco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Repository\\ProblemsWeb.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Repository\\ProblemsWeb.Repository.csproj",
+        "projectName": "ProblemsWeb.Repository",
+        "projectPath": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Repository\\ProblemsWeb.Repository.csproj",
+        "packagesPath": "C:\\Users\\Franco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Franco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Models\\ProblemsWeb.Models.csproj": {
+                "projectPath": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Models\\ProblemsWeb.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.31, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.31, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.31, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.31, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb\\ProblemsWeb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb\\ProblemsWeb.csproj",
+        "projectName": "ProblemsWeb",
+        "projectPath": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb\\ProblemsWeb.csproj",
+        "packagesPath": "C:\\Users\\Franco\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Franco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Business\\ProblemsWeb.Business.csproj": {
+                "projectPath": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Business\\ProblemsWeb.Business.csproj"
+              },
+              "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Repository\\ProblemsWeb.Repository.csproj": {
+                "projectPath": "C:\\Users\\Franco\\source\\repos\\ProblemsWeb\\ProblemsWeb.Repository\\ProblemsWeb.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.31, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

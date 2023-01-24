@@ -1,0 +1,15 @@
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\bin\Debug\netcoreapp3.1\ProblemsWeb.Business.deps.json
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\bin\Debug\netcoreapp3.1\ProblemsWeb.Business.dll
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\bin\Debug\netcoreapp3.1\ProblemsWeb.Business.pdb
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\obj\Debug\netcoreapp3.1\ProblemsWeb.Business.csproj.AssemblyReference.cache
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\obj\Debug\netcoreapp3.1\ProblemsWeb.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\obj\Debug\netcoreapp3.1\ProblemsWeb.Business.AssemblyInfoInputs.cache
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\obj\Debug\netcoreapp3.1\ProblemsWeb.Business.AssemblyInfo.cs
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\obj\Debug\netcoreapp3.1\ProblemsWeb.Business.csproj.CoreCompileInputs.cache
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\obj\Debug\netcoreapp3.1\ProblemsWeb.Business.dll
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\obj\Debug\netcoreapp3.1\ProblemsWeb.Business.pdb
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\bin\Debug\netcoreapp3.1\ProblemsWeb.Models.dll
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\bin\Debug\netcoreapp3.1\ProblemsWeb.Repository.dll
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\bin\Debug\netcoreapp3.1\ProblemsWeb.Repository.pdb
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\bin\Debug\netcoreapp3.1\ProblemsWeb.Models.pdb
+C:\Users\Franco\source\repos\ProblemsWeb\ProblemsWeb.Business\obj\Debug\netcoreapp3.1\ProblemsWeb.Business.csproj.CopyComplete

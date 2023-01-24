@@ -1,0 +1,170 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="container">
+        <div class="mb-3">
+            <label for="txtTitle" class="form-label"> Title</label>
+            <input type="text" class="form-control" id="txtTitle" placeholder="">
+        </div>
+        <div class="mb-3">
+            <label for="txtMessage" class="form-label">Message</label>
+            <textarea class="form-control" id="txtMessage" rows="3"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label for="txtTitle" class="form-label"> KeyWord</label>
+            <input type="text" class="form-control" id="txtKeyWord" placeholder="" style="width:300px;">
+        </div>
+
+        <button type="button" class="btn btn-info" id="btnSave" onclick="agregateKeyWord()">Save</button>
+        <button type="button" class="btn btn-info" id="btnCreate" onclick="createSolution()">Create</button>
+
+        <div id="divWords"></div>
+
+    </div>
+
+
+    <script>
+
+
+        var keyWordsArray = [];
+
+        const agregateKeyWord = () => {
+
+            let Keyword = {
+                keyWords: document.getElementById('txtKeyWord').value
+            }
+
+            console.log(Keyword)
+
+            keyWordsArray.push(Keyword);
+
+            document.getElementById("txtKeyWord").value = '';
+
+            document.getElementById("divWords").innerHTML += Keyword.keyWords + '<br/>'
+        }
+
+        const createSolution = async () => {
+
+
+            let url = '/api/Solution/CreateSolution'
+
+
+            let solution = {
+                title: document.getElementById('txtTitle').value,
+                message: document.getElementById('txtMessage').value,
+                userId: 1,
+                solutionGroup: "primera",
+                listKeyWord: keyWordsArray
+
+            }
+
+
+        
+
+            await fetch(url, {
+                method: 'POST',
+                body: JSON.stringify(solution),
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            })
+                .then(res => res.text())
+                .catch(error => {
+                    console.error('Error:', error);
+                    alert('Error! revisar log ');
+                })
+                .then(response => {
+
+                    alert('Respuesta del servidor: ' + response)
+                    console.log('Success:', response)
+
+                });
+            
+        }
+
+
+
+        //const getUsuarios = async () => {
+
+        //    let url = '/api/cliente/getClientes'
+
+        //    fetch(url)
+        //        .then(response => response.json())
+        //        .then(data => mostrarData(data))
+        //        .catch(error => console.log(error))
+
+
+        //    const mostrarData = (data) => {
+
+
+        //        console.log(data)
+        //        let body = ""
+
+        //        for (let i = 0; i < data.length; i++) {
+
+
+
+        //            body += `<tr> <td class="text-center"> ${data[i].id}</td> <td class="text-center"> ${data[i].nombreApellido}</td>  </tr>`
+
+
+        //        }
+
+
+        //        document.getElementById(`data`).innerHTML = body
+        //    }
+
+
+
+
+        //}
+
+        //getUsuarios();
+
+
+        //const actualizarUsuario = () => {
+
+        //    let nombre = document.getElementById(`nuevoNombre`).value
+
+        //    let edad = document.getElementById(`nuevaEdad`).value
+
+        //    let Is = idVariable
+
+        //    let Id = parseInt(Is)
+
+        //    let objeto = getUsuario
+
+
+        //    fetch('/api/usuarios', {
+        //        method: 'PUT',
+        //        headers: {
+        //            'Access-Control-Allow-Origin': '*',
+        //            'Content-Type': 'application/json'
+        //        },
+        //        body: JSON.stringify({ edad: parseInt(edad), nombre: nombre, id: Id })
+        //    })
+        //        .then(res => {
+        //            return res.json()
+        //        })
+
+
+
+        //        .then(data => {
+        //            getUsuarios();
+
+
+        //            console.log(data)
+        //        })
+
+        
+    </script>
+
+    <script src="/lib/jquery/dist/jquery.min.js"></script>
+    <script src="/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
